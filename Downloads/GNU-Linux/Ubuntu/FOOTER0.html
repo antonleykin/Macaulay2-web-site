@@ -24,13 +24,15 @@
 <!--U-->Ubuntu 18.04 "Bionic Beaver",
 <!--U-->Ubuntu 20.04 "Focal Fossa",
 <!--U-->Ubuntu 22.04 "Jammy Jellyfish",
-<!--U-->Ubuntu 23.04 "Lunar Lobster",
+<!--U-->Ubuntu 23.10 "Mantic Minotaur",
 <!--U-->and
-<!--U-->Ubuntu 23.10 "Mantic Minotaur"
+<!--U-->Ubuntu 24.04 "Noble Numbat"
 <!--D-->Debian 11 "Bullseye"
 <!--D-->and
 <!--D-->Debian 12 "Bookworm"
 <!--R-->Raspberry Pi OS 11 "Bullseye"
+<!--R-->and
+<!--R-->Raspberry Pi OS 12 "Bookworm"
   using a PPA (Personal Package Archive) maintained by Doug Torrance.
 </p>
 
@@ -59,6 +61,11 @@
 <!--D--></pre>
 <!--R-->add the following to <tt>/etc/apt/sources.list</tt>:
 <!--R--></p>
+<!--R--><p>On Raspberry Pi OS 12 "Bookworm":</p>
+<!--R--><pre>
+<!--R-->  deb [signed-by=/usr/share/keyrings/debian-keyring.gpg] https://people.debian.org/~dtorrance/debian bookworm/
+<!--R--></pre>
+<!--R--><p>On Raspberry Pi OS 11 "Bullseye":</p>
 <!--R--><pre>
 <!--R-->  deb [signed-by=/usr/share/keyrings/debian-maintainers.gpg] https://people.debian.org/~dtorrance/debian bullseye/
 <!--R--></pre>
